@@ -1,0 +1,161 @@
+<!--By Guilherme -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Finder — Ajude a Encontrar Pessoas Desaparecidas</title>
+    <meta name="description" content="Web Finder é uma plataforma para cadastrar e divulgar casos de pessoas desaparecidas no Brasil, ajudando a acelerar o reencontro.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="WEBFINDER.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="brand">
+                <span class="brand-mark"></span>
+                Web Finder
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="texte1ca.html"><i class="fas fa-user-plus"></i> Cadastrar Desaparecido</a></li>
+                    <li><a href="texte2list.html"><i class="fas fa-list"></i> Lista de Desaparecidos</a></li>
+                    <li><a href="textecontato.html"><i class="fas fa-phone"></i> Contato</a></li>
+                    <li><a href="textsobre.html"><i class="fa-regular fa-circle-question"></i> Sobre nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="eyebrow">Plataforma de busca colaborativa</span>
+                <h1>Cada minuto conta na busca por <span>quem desapareceu</span></h1>
+                <p>Cadastre um caso, divulgue informações e ajude a rede a agir enquanto ainda há tempo. Quanto mais gente souber, maior a chance de reencontro.</p>
+                <div class="hero-actions">
+                    <a href="texte1ca.html" class="btn btn-primary"><i class="fas fa-user-plus"></i> Cadastrar desaparecido</a>
+                    <a href="texte2list.html" class="btn btn-secondary"><i class="fas fa-list"></i> Ver lista de casos</a>
+                </div>
+            </div>
+
+            <div class="hero-file">
+                <div class="clock-label">Janela crítica de busca</div>
+                <div class="clock-value">48 <small>horas</small></div>
+                <p>É o período mais decisivo para localizar uma pessoa desaparecida — por isso a rapidez na divulgação faz toda a diferença.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-desaparecidos" class="info-desaparecidos">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Panorama</span>
+                <h2>Situação atual no Brasil</h2>
+                <p>Um retrato rápido de por que essa causa exige atenção contínua.</p>
+            </div>
+            <div class="info-cards">
+                <div class="card">
+                    <span class="num">01</span>
+                    <h3>Mais de 80 mil desaparecidos por ano</h3>
+                    <p>No Brasil, milhares de pessoas desaparecem anualmente. A maioria são crianças e adolescentes.</p>
+                </div>
+                <div class="card">
+                    <span class="num">02</span>
+                    <h3>Ajude na busca</h3>
+                    <p>Informações detalhadas aumentam as chances de reencontro. Cadastre fotos e dados importantes.</p>
+                </div>
+                <div class="card">
+                    <span class="num">03</span>
+                    <h3>Tempo é essencial</h3>
+                    <p>Agir rapidamente é crucial. Utilize nossa plataforma para divulgar casos e alcançar mais pessoas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guia-desaparecidos" class="guia-desaparecidos">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Guia rápido</span>
+                <h2>Como ajudar na busca</h2>
+                <p>Saiba quais informações são mais importantes para ajudar na busca de pessoas desaparecidas.</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/4q6k_8BEk0E" title="Guia: como ajudar na busca de pessoas desaparecidas"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="estatisticas" class="estatisticas">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Números</span>
+                <h2>Estatísticas alarmantes</h2>
+                <p>Descubra números que mostram a realidade dos desaparecimentos no Brasil.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="num">+80 mil</div>
+                    <p>Pessoas desaparecem por ano no Brasil.</p>
+                </div>
+                <div class="stat-item">
+                    <div class="num">60%</div>
+                    <p>São menores de idade. Crianças e adolescentes representam a maioria.</p>
+                </div>
+                <div class="stat-item">
+                    <div class="num">48h</div>
+                    <p>O período mais crítico para localizar uma pessoa desaparecida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acao-rapida" class="acao-rapida">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Passo a passo</span>
+                <h2>Guia de ação rápida</h2>
+                <p>Siga estes passos para aumentar as chances de reencontro.</p>
+            </div>
+            <ol>
+                <li><strong>Informe as autoridades:</strong> <span>entre em contato com a polícia através do 190 o mais rápido possível.</span></li>
+                <li><strong>Divulgue nas redes sociais:</strong> <span>utilize fotos recentes e detalhes sobre a pessoa desaparecida.</span></li>
+                <li><strong>Distribua cartazes:</strong> <span>espalhe cartazes em áreas movimentadas.</span></li>
+                <li><strong>Cadastre no Web Finder:</strong> <span>use nossa plataforma para alcançar mais pessoas.</span></li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Web Finder. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Web Finder | <a href="https://www.instagram.com/web.finder___2025?utm_source=qr&igsh=cWY5eGM1aW0zeXFv" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.classList.toggle('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+    </script>
+</body>
+
+</html>
