@@ -1,1 +1,1 @@
-k_rina.github.io/webfinder
+https://k_rina.github.io/index.html
